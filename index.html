@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pierre ASDRUBAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="hero is-dark is-fullheight welcome">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1">
+          Hey there !
+        </h1>
+        <h2 class="subtitle is-1">
+            <i class="fas fa-arrow-alt-circle-down"></i>
+        </h2>
+      </div>
+      
+    </div>
+    <div class="tabs is-centered" id="tabs">
+        <ul>
+            <li class="tab" id="About-tab" onclick="openTab('About')"><a href="#tabs">About me</a></li>
+            <li class="tab" id="Skills-tab" onclick="openTab('Skills')"><a href="#tabs">Skills</a></li>
+            <li class="tab" id="Work-tab" onclick="openTab('Work')"><a href="#tabs">My work</a></li>
+        </ul>
+    </div>
+  </section>
+  <section>
+      
+    <div class="element hide" id="About">
+        <div class="hero">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">About Me</h1>
+                    <div class="columns">
+                        <div class="column">
+                            <p>Hey ! I am Pierre ASDRUBAL WEB Developer, graduate from the University of Orleans in France and self-taught since then. Always happy to learn new stuff and improve my skills. D'ont hesitate to give a look at my previous work or to contact me, I would be happy to get something new started. Hope hearing from you soon &#128513</p>
+                            <hr />
+                            <nav class="level">
+                                <div class="level-item has-text-centered">
+                                    <div>
+                                    <p class="title is-4">Phone</p>
+                                    <p class="heading">+33 7 84 54 39 25</p>
+                                    </div>
+                                </div>
+                                <div class="level-item has-text-centered">
+                                    <div>
+                                    <p class="title is-4">E-mail</p>
+                                    <p class="heading">pierre.asdrubal@gmail.com</p>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="column">
+                        <figure class="image">
+                            <img class="is-rounded" src="img/Me.jpg" alt="Placeholder image">
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="element hide" id="Skills">
+        <div class="hero">
+            <div class="hero-body">
+                <div class="container">
+                        <h1 class="title">Skills</h1>
+
+                    <div class="columns">
+                        <div class="column">
+                            <p class="heading">HTML/CSS</p>
+                            <progress class="progress is-info" value="60" max="100"></progress>  
+                            <p class="heading">Front</p>
+                            <progress class="progress is-success" value="70" max="100"></progress>
+                            <p class="heading">Back</p>
+                            <progress class="progress is-warning" value="65" max="100"></progress>
+                        </div>
+                        <div class="column">
+                            <p class="heading">Technologies currently used</p>
+                            <p>REACT, React-router, Axios, Node.js, Epress, PostgreSQL, Joi, Bulma, Git</p>
+                            <br>
+                            <p class="heading">Technologies used in the past</p>
+                            <p>PHP, Jquery, MySQL, AJAX, Python, VBA, Bootstrap, JAVA, C++</p>
+                            <br>
+                            <p class="heading">Other Skills</p>
+                            <p>Agile, Specification creation, Communication, LEAN</p>
+                        </div>
+                    </div>
+                    <div class=endofskills>
+                        <div class="has-text-centered">
+                            <a class="button is-dark" href="./file/Resume.pdf" download>Get my resume&nbsp;<i class="fas fa-file-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="element hide" id="Work">
+        <div class="hero">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">My work</h1>
+                    <p>Here is preview of my last apps, fully responsive & functionnal.</p>
+                    <div class="columns">
+                        <div class="content">
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                    CocktailsLife
+                                    </p>
+                                </header>
+                            <div class="card-image">
+                                <figure class="image">
+                                <img src="img/CocktailsLife.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                            
+                                <div class="content">
+                                    <p>A simple application build with :</p>
+                                    <ul>
+                                        <li>Api : express</li>
+                                        <li>Database : mongoDB</li>
+                                        <li>CSS Framework : Bulma</li>
+                                    </ul>
+                                    <div class="has-text-centered">
+                                    <a class="button is-success" onclick="openModal('CocktailsLife')">preview &nbsp;<i class="fas fa-images"></i></a>
+                                    <a class="button is-dark" href="https://github.com/GraineFutee/CL-website" target="_blank">View code &nbsp;<i class="fab fa-github-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                RecipeZ
+                                </p>
+                            </header>
+                            <div class="card-image">
+                                <figure class="image">
+                                <img src="img/RecipeZ.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                            
+                                <div class="content">
+                                    <p>A complete application build with :</p>
+                                    <ul>
+                                        <li>Front : REACT</li>
+                                        <li>Back : express</li>
+                                        <li>Database : PostgreSQL</li>
+                                        <li>CSS Framework : Bulma</li>
+                                    </ul>
+                                    <div class="has-text-centered">
+                                    <a class="button is-success" onclick="openModal('RecipeZ')">preview &nbsp;<i class="fas fa-images"></i></a>
+                                    <a class="button is-dark" href="https://github.com/GraineFutee/Recipez" target="_blank">View code &nbsp;<i class="fab fa-github-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+  </section>
+  <!-- <section class="hero is-fullheight is-dark">
+            <div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns">
+					<div class="column has-text-left">
+						<h1 class="title is-1">Contact Me</h1>
+						<p class="is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi soluta
+							voluptate facere molestiae consequatur.</p>
+					</div>
+					<div class="column has-text-left">
+						<div class="field">
+							<div class="control">
+								<input class="input" type="text" Placeholder="Name ...">
+							</div>
+						</div>
+						<div class="field">
+							<div class="control">
+								<input class="input" type="text" Placeholder="E-mail ...">
+							</div>
+						</div>
+						<div class="field">
+							<div class="control">
+								<textarea class="textarea  " Placeholder="Message ..."></textarea>
+							</div>
+						</div>
+						<div class="control">
+							<button type="submit" class="button is-link is-fullwidth">Send Message</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        </section> -->
+    </div>
+    <div class="modal" id="RecipeZ">
+        <div class="modal-background" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <div class="box">
+            <figure class="image">
+                <img src="img/RecipeZ/Main.png" alt="Placeholder image">
+            </figure>
+            <hr />
+            <figure class="image">
+                <img src="img/RecipeZ/SignIn.png" alt="Placeholder image">
+            </figure>
+            <hr />
+            <figure class="image">
+                <img src="img/RecipeZ/MyRecipes.png" alt="Placeholder image">
+            </figure>
+            <hr />
+            <figure class="image">
+                <img src="img/RecipeZ/Recipe1.png" alt="Placeholder image">
+            </figure>
+            <hr />
+            <figure class="image">
+                <img src="img/RecipeZ/Recipe2.png" alt="Placeholder image">
+            </figure>
+        </div>
+        </div>
+        <button class="modal-close is-large" onclick="closeModal()" aria-label="close"></button>
+    </div> 
+    <div class="modal" id="CocktailsLife">
+        <div class="modal-background" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <div class="box">
+            <figure class="image">
+                <img src="img/CocktailsLife/Main.png" alt="Placeholder image">
+            </figure>
+            <hr />
+            <figure class="image">
+                <img src="img/CocktailsLife/Recipes.png" alt="Placeholder image">
+            </figure>
+            <hr />
+            <figure class="image">
+                <img src="img/CocktailsLife/Negroni.png" alt="Placeholder image">
+            </figure>
+        </div>
+        </div>
+        <button class="modal-close is-large" onclick="closeModal()" aria-label="close"></button>
+    </div> 
+
+    <script>
+        function openTab(tabName) {
+            var i;
+            var x = document.getElementsByClassName("element");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            var y = tabName + "-tab";
+            var z = document.getElementsByClassName("tab");
+            for (i = 0; i < z.length; i++) {
+                z[i].className = "tab";
+            }
+            document.getElementById(y).classList.add('is-active')
+            document.getElementById(tabName).style.display = "block";  
+        }
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('is-active')
+        }
+        function closeModal() {
+            var x = document.getElementsByClassName("modal")
+            for (i = 0; i < x.length; i++) {
+                x[i].className = "modal";
+            };
+        }
+    </script>
+
+  </body>
+</html>

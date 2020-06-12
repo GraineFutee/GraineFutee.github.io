@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.welcome {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+li.is-active {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.column {
+  margin: 30px;
+}
+
+.fake {
+  background-image: url("https://picsum.photos/960/640");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.endofskills {
+  margin-bottom: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.is-active {
+  display: inline;
+}
+body {
+  background-color: #ecf0f1;
+}
